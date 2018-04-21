@@ -1,0 +1,46 @@
+
+COMMANDS AVAILABLE
+Note: Commands are separated by a space. Records retrieved are from selected city.
+
+list
+	Description: Lists restaurant categories/cuisines and their corresponding ratings (average, minimum, and maximum) according to the specified parameters.
+
+	Options:
+		* yelp 
+		Description: Required. Specifies source of data - Yelp 
+
+		* top | bottom
+		Description: Required. Specifies whether to list the top or bottom matches.
+
+		* <limit>
+		Description: Optional. Specifies whether to list the top <limit> matches or the
+		bottom <limit> matches. If not specified, all results will be displayed.
+
+	Sample list commands:
+		"list yelp top 10"
+
+plot
+	Description: Creates and launches plotly charts. Types of charts displayed are based on specified parameters.
+
+	Options:
+		* bar
+		Description: Only available when the list command is used. Displays a bar chart of the results from a previous list command call. Values displayed are average ratings.
+
+		* pie <source>
+		Source: yelp 
+		Description: Displays a pie chart of all categories/cuisines from the specified <source>. Values displayed are proportion of restaurants that belong in a category/cuisine.
+                * Donut <source>
+		Source: yelp 
+		Description: Displays a donut chart of all categories/cuisines from the specified <source>. Values displayed are proportion of restaurants that belong in a category/cuisine.
+
+        Sample plot commands:
+	"plot bar"
+        “Plot pie yelp”
+new
+	Description: Begins a new city search.
+
+help
+	Description: Prints command instructions.
+
+exit
+	Description: Terminates program.
