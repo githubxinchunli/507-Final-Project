@@ -1,8 +1,8 @@
 # 507-Final-Project
 
-final_project.py includes the major programs that this project includes. 
+# final_project.py includes the major programs that this project includes.
 
-What is this program about?
+# What is this program about?
 Users can learn about the max, min and ave ratings of restaurants by their type/category in major cities of America. 
 
 What files are needed to run the program?
@@ -14,7 +14,9 @@ What files are needed to run the program?
 Data sources?
 Yelp--API key is needed to run this program
 
-Unittest
+Unittest?
+Test Databases YelpRestaurants and Categories
+Test Command setup
 
 Modules included?
 requests, json, sqlite3, and plotly
