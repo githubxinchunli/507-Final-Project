@@ -50,4 +50,4 @@ set_interactive_command: Set of interactive commands such as list, plot, new, he
 
 User Guide: A guide for how to use commmand to get the data needed. See help.txt for details 
 
-# Note that the database keeps changing every time the user puts in a new command as the scope and content of data changes. The database in the file is just one example. 
+** Note that the database keeps changing every time the user puts in a new command as the scope and content of data changes. The database in the file is just one example.**
